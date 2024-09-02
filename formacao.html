@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação</title>
+    <style>
+         body{
+            margin: 0
+        ;
+        }
+        .container {
+            display: grid;
+            color:black;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+           
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            justify-content: center;
+            font-size: 21px;
+        
+        
+        }
+
+
+        .imagem_eu {
+            grid-column-start: 1;
+            grid-column-end: 2;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+            font-size: 20px;
+
+        }
+
+        header {
+            background-color: rgb(247, 158, 213);
+            color: black;
+            font-size: 10px;
+        
+        }
+
+        ul {
+            list-style-type: none;
+
+            color: black;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 16px 24px;
+            border: solid black 1px;
+        }
+
+        li {
+            float: left;
+    
+        }
+
+        a:hover {
+            background-color: #9795eb;
+            color: black;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: rgb(247, 158, 213);
+            color: white;
+            text-align: center;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+               grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_eu {
+                grid-column-start: 1;
+ grid-column-end: 1;
+                
+            }
+
+            .principal {
+                grid-column-start: 1;
+ grid-column-end: 1;
+                
+            }
+        }
+    </style>
+       
+    </style>
+</head>
+<body style="background-color:rgb(231, 207, 222);">
+    <header class="container">
+        <h1 style=" text-align: center; font-size: 25px;">Portfólio Gabriela Alves do Nascimento</h1>
+        <br>
+        <nav class="container menu" >
+            <ul>
+                <li><a href="TrabalhoPortifolio.html">Sobre mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+  <br>
+    <div class="container wrapper">
+        <aside class="imagem_eu">
+            <img src="IMG-20230617-WA0006~2.jpg" height="400px">
+            <div class="infos" style = "font-size: 16px;">
+                <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas</p>
+                <p>
+                    <strong>Data de Nascimento:</strong>
+                    16/09/1999
+                </p>
+                <p><strong>Localização:</strong> São Paulo - SP</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+               Formação 
+            </h1>
+            <p> 2016 - Ensino Médio - Colégio Mega Visão <br>
+                2021 - Enfermagem - Universidade Paulista Unip <br>
+                2024 - Análise e Desenvolvimento de Sistemas - UNINTER - Cursando <br>
+                2024 - Inglês - UNINTER - Cursando
+
+
+            </p>
+            
+        </section>
+    </div>
+    <footer class="container" style="font-size: 15px;">
+        <h1><a href="https://www.linkedin.com/in/gabriela-alves-do-nascimento-6b9a44134/"> Linkedin</a></h1>
+    </footer>
+    </div>
+
+</body>
+</html>
